@@ -1,0 +1,58 @@
+.material {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--laranja-claro);
+    color: white;
+    margin: 3rem 15rem;
+    border-radius: 20px;
+    padding: 1rem 4rem;
+}
+.texto-material h1{
+    font-size: 2.5rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+.texto-material p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.texto-material button {
+    font-size: 1rem;
+    margin-top: 30px;
+    padding: 0.80rem 3rem;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--laranja-claro);
+    background-color: white;
+}
+
+.texto-material button:hover {
+    background-color: var(--verde);
+    color: black;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.material img {
+    width: 550px;
+    height: auto;
+    margin-left: 2rem;
+    box-shadow: var(--cinza-escuro) 0px 4px 15px;
+}
+
+@media (max-width: 1264px) {
+    .material {
+        flex-direction: column;
+        margin: 2rem;
+        padding: 2rem;
+    }
+    .material img {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}

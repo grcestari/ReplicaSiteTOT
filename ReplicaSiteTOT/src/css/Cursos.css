@@ -1,0 +1,55 @@
+.slider-cursos {
+  overflow-x: hidden;
+  display: flex;
+  width: 100%;
+}
+
+.slider-wrapper-cursos {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 50px 40px;
+}
+
+.btn-slider-cursos {
+  position: absolute;
+  background: transparent;
+  color: var(--cinza);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 10;
+  transition: background 0.3s;
+}
+
+.slider-track-cursos {
+  display: flex;
+  width: max-content;
+  gap: 20px;
+}
+
+.slide-item-cursos {
+  width: 250px;
+  height: 400px;
+  background-color: var(--cinza-placeholder);
+  flex-shrink: 0;
+  text-align: center;
+  align-content: center;
+  border-radius: 5px;
+  color: var(--cinza);
+}
+
+.btn-slider-prev-cursos {
+  background-color: transparent;
+  border-color: transparent;
+  color : var(--cinza-claro);
+  font-size: 4rem;
+}
+
+.btn-slider-next-cursos {
+  background-color: transparent;
+  border-color: transparent;
+  color : var(--cinza-claro);
+  font-size: 4rem;
+}

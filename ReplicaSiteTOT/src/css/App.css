@@ -1,0 +1,128 @@
+:root {
+  --laranja: #e34926;
+  --laranja-escuro: #ca3f1f;
+  --laranja-claro: #ee5923;
+  --bege: #ffe5c9;
+  --cinza: #282c34;
+  --cinza-escuro: #151616;
+  --cinza-claro: #4a4a4a;
+  --cinza-placeholder: rgba(133, 133, 133, 0.384);
+  --verde: #8db83e;
+}
+
+.App {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  color: white;
+  background: var(--laranja);
+  padding: 1rem;
+}
+
+.intro-container {
+  max-width: 50rem;
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 2.6rem;
+  line-height: 2.2rem;
+}
+
+.intro p {
+  max-width: 40rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 20px auto 0;
+}
+
+.img-intro {
+  width: 100%;
+  height: 30rem;
+  background: var(--cinza);
+  display: flex;
+  align-items: end;
+}
+
+.img-intro p {
+  color: var(--bege);
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 5rem;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+}
+
+.clientes {
+  background-color: var(--bege);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.clientes h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.2rem;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 10rem;
+  padding-top: 4rem;
+}
+
+.clientes p {
+  font-size: 1.1rem;
+  color: black;
+  line-height: 1.5rem;
+  margin: 20px auto 0;
+  text-align: left;
+  padding-left: 10rem;
+}
+
+.solucoes {
+  color: var(--bege);
+  background-color: var(--laranja);
+}
+
+.solucoes h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.2rem;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 4rem;
+  padding-top: 3rem;
+}
+
+.solucoes p {
+  font-size: 1.1rem;
+  color: black;
+  line-height: 1.5rem;
+  margin: 20px auto 0;
+  text-align: left;
+  padding-left: 4rem;
+  padding-bottom: 2rem;
+}
+
+.cursos {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  padding-top: 5rem;
+}
+
+.cursos h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+img.recaptcha {
+  width: 220px;
+  height: auto;
+  align-self: flex-start;
+  margin-left: -1.2rem;
+}
